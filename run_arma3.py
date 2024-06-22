@@ -3,7 +3,9 @@
 import os
 import subprocess
 
-profile_name = os.environ.get('profile_name') if os.environ.get('profile_name') else None
+import config
+
+profile_name = config.profile_name
 
 if not profile_name:
     print("Profile Name unset.")
