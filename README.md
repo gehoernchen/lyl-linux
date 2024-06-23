@@ -11,6 +11,11 @@ Purposes:
 - run_arma3.py: Run Arma 3 and connect to LyL Altis Life. You may connect via the Arma 3 Launcher or anything.
 - run_lyl.py: Run the LyL launcher.
 
+## Dependencies
+
+- You need protontricks, either native or flatpak. I had bugs with the native package and chose Flatpak.
+- Python.
+
 ## Disclaimer
 
 No guarantees any scripts work and are free of bugs.
