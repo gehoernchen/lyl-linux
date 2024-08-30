@@ -13,7 +13,7 @@ Purposes:
 
 ## Dependencies
 
-- You need protontricks, either native or flatpak. I had bugs with the native package and chose Flatpak.
+- You need protontricks, either native or flatpak. I had bugs with the native package and chose Flatpak. Make sure your protontricks flatpak can access the directory your `lyl-launcher.exe` is located at!!
 - Python.
 - VDF for Python. For Arch, there is an AUR package called `python-vdf`.
 - The LyL launcher. Put the executable in this repository or edit the path to it in `config.py`.
@@ -21,3 +21,4 @@ Purposes:
 ## Disclaimer
 
 No guarantees any scripts work and are free of bugs.
+
