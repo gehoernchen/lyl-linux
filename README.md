@@ -15,6 +15,8 @@ Purposes:
 
 - You need protontricks, either native or flatpak. I had bugs with the native package and chose Flatpak.
 - Python.
+- VDF for Python. For Arch, there is an AUR package called `python-vdf`.
+- The LyL launcher. Put the executable in this repository or edit the path to it in `config.py`.
 
 ## Disclaimer
 
