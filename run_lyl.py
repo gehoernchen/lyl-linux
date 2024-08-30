@@ -19,4 +19,4 @@ if not lyl_executable_path:
 
 # run lyl launcher
 lyl_run_cmd = [f"{protontricks_command} -c 'wine {lyl_executable_path}' {insert.arma3_app_id}"]
-subprocess.run(lyl_run_cmd, shell=True, stdin=None, stdout=None, close_fds=True)
+subprocess.Popen(lyl_run_cmd, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
